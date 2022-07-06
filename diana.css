@@ -189,7 +189,7 @@ opacity: 1;
 }
 
 .nav-list ul ul {
-width: 495px;
+width: flex;
 align-self: auto;
 }
 
