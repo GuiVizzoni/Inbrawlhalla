@@ -211,6 +211,11 @@ display: block;
   transition: 0.3s;
 }
 
+.gif {
+      text-align: center;
+     padding: 15px;
+}
+
 /*Botão Teste*/
 .teste{
   position: relative;
