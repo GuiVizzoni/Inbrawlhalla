@@ -319,13 +319,50 @@ display: block;
 }
 
 /*MEDIA QUERIES - SITE RESPONSIVO*/
+/*Pc 1080p*/
 
-/*Tablets*/
-
-@media screen and (max-width: 600px) {
+@media screen {
   section, aside {
-    width: 100%;
-    padding: 0%;
+    position: relative;
+    width: 1920px;
+    height: 1080px;
   }
 }
 
+/*Pc 768p*/
+@media screen {
+  section, aside {
+    position: relative;
+    width: 1024px;
+    height: 768px;
+  }
+}
+
+/* iphone 13 pro max */
+@media screen {
+  section, aside {
+
+position: relative;
+width: 428px;
+height: 926px;
+}
+
+
+/*Tablets e Ipads*/
+
+@media screen {
+  section, aside {
+
+position: relative;
+width: 744px;
+height: 1133px;
+
+  }
+}
+
+/*PADRÃO FIFA DOS MEDIA QUERIES*/
+@media screen {
+  section, aside {
+
+  }
+}
