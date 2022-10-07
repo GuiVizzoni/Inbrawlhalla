@@ -6,7 +6,7 @@
 }
 body {
   overflow-x: hidden;
-  background-image: url(/imagens/Site-background-dark.png);
+  background-image: url(../imagens/Site-background-dark.png);
   display:flex;
   justify-content: center;
   align-items: center;
