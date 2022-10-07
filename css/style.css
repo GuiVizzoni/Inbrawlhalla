@@ -1,0 +1,368 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  overflow-x: hidden;
+  background-image: url(https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/08/Site-background-dark/revision/latest?cb=20210623150946);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  
+  background-repeat:repeat-x;
+background-attachment:fixed
+}
+.testee {
+  position: relative;
+  background: #444;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.6em;
+  letter-spacing: 0.1em;
+  padding: 10px 30px;
+  transition: 0.5s;
+}
+
+.testee:hover
+{
+  
+  background: var(--clr);
+  color: var(--clr);
+  box-shadow: 0 0 35px var(--clr);
+}
+.testee::before
+{
+  content: '';
+  position: absolute;
+  inset: 2px;
+  background: #27282c;
+}
+
+.testee span
+{
+  position:relative;
+  z-index: 1;
+}
+
+.testee i
+{
+  position: absolute;
+  inset: 0;
+  display:block;
+}
+
+.testee i::before
+{
+  content: '';
+  position: absolute;
+  top: -3.5px;
+  left: 80%;
+  width: 10px;
+  height: 5px;
+  border: 2px solid var(--clr);
+  background: #27282c;
+  transform: translateX(-50%);
+  transition: 0.5s;
+  
+}
+
+.testee:hover i::before
+{
+  width: 20px;
+  left: 20%;
+}
+
+.testee i::after
+{
+  content: '';
+  position: absolute;
+  bottom: -3.5px;
+  left: 20%;
+  width: 10px;
+  height: 5px;
+  border: 2px solid var(--clr);
+  background: #27282c;
+  transform: translateX(-50%);
+  transition: 0.5s;
+  
+}
+
+.testee:hover i::after
+{
+  width: 20px;
+  left: 80%;
+}
+
+a {
+color: rgb(255, 255, 255);
+text-decoration: none;
+transition: 0.3s;
+font-weight: bold;
+}
+
+a:hover {
+opacity: 0.7;
+}
+
+.logo {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  
+  height: 8vh;
+}
+
+main {
+  background: #001322;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(255, 255, 255, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.174) 0px 1px 0px inset;
+  max-width: 1200px;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*Menu de Navegação*/
+
+  .nav-list ul {
+  list-style: none;
+  display: flex;
+
+   /*mudança rapida*/
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 25px;
+  letter-spacing: 0.1em;
+  padding: 10px 30px;
+}
+
+.nav-list ul {
+  background-color: var(--cor-fundo);
+}
+
+.nav-list ul li {
+  display: inline;
+  position: relative;
+  letter-spacing: 3px;
+  margin-left: 32px;
+
+}
+
+.testee{
+
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  
+}
+
+.testee span
+{
+  position:relative;
+  z-index: 1;
+}
+
+/*Sub Menu Principal*/
+
+.nav-list  ul ul{
+display: none;
+position: absolute;
+opacity: 0;
+
+}
+
+.nav-list ul li:hover ul{
+display: block;
+opacity: 1;
+
+}
+
+.nav-list ul ul {
+width: flex;
+align-self: auto;
+}
+
+.nav-list ul ul li a {
+display: block;
+}
+/*mobile-menu*/
+
+.mobile-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background: #fff;
+  margin: 8px;
+  transition: 0.3s;
+}
+
+.gif {
+      text-align: center;
+     padding: 15px;
+}
+/*Lista personagens jogados*/
+.lista li {
+  display:inline-block;
+    border:20px;
+    margin: 30px;
+    max-width:200px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+}
+
+.lista li img {
+  max-width:150px;
+  max-height:150px;
+  width: auto;
+  height: auto;
+}
+
+/*Botão Teste*/
+.teste{
+  position: relative;
+  background: #444;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  padding: 10px 30px;
+  transition: 0.5s;
+
+}
+
+.teste:hover
+{
+  letter-spacing: 0.25em;
+  background: var(--clr);
+  color: var(--clr);
+  box-shadow: 0 0 35px var(--clr);
+}
+.teste::before
+{
+  content: '';
+  position: absolute;
+  inset: 2px;
+  background: #27282c;
+}
+
+.teste span
+{
+  position:relative;
+  z-index: 1;
+}
+
+.teste i
+{
+  position: absolute;
+  inset: 0;
+  display:block;
+}
+
+.teste i::before
+{
+  content: '';
+  position: absolute;
+  top: -3.5px;
+  left: 80%;
+  width: 10px;
+  height: 5px;
+  border: 2px solid var(--clr);
+  background: #27282c;
+  transform: translateX(-50%);
+  transition: 0.5s;
+  
+}
+
+.teste:hover i::before
+{
+  width: 20px;
+  left: 20%;
+}
+
+.teste i::after
+{
+  content: '';
+  position: absolute;
+  bottom: -3.5px;
+  left: 20%;
+  width: 10px;
+  height: 5px;
+  border: 2px solid var(--clr);
+  background: #27282c;
+  transform: translateX(-50%);
+  transition: 0.5s;
+  
+}
+
+.teste:hover i::after
+{
+  width: 20px;
+  left: 80%;
+}
+
+/*MEDIA QUERIES - SITE RESPONSIVO*/
+/*Pc 1080p*/
+
+@media screen {
+  section, aside {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+  }
+}
+
+/*Pc 768p*/
+@media screen {
+  section, aside {
+    position: relative;
+    width: 1024px;
+    height: 768px;
+  }
+}
+
+/* iphone 13 pro max */
+@media screen {
+  section, aside {
+
+position: relative;
+width: 428px;
+height: 926px;
+}
+
+
+/*Tablets e Ipads*/
+
+@media screen {
+  section, aside {
+
+position: relative;
+width: 744px;
+height: 1133px;
+
+  }
+}
+
+/*PADRÃO FIFA DOS MEDIA QUERIES*/
+@media screen {
+  section, aside {
+
+  }
+}
