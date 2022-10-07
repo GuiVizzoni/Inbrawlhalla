@@ -6,7 +6,7 @@
 }
 body {
   overflow-x: hidden;
-  background-image: url(https://static.wikia.nocookie.net/brawlhalla_gamepedia/images/0/08/Site-background-dark/revision/latest?cb=20210623150946);
+  background-image: url(/imagens/Site-background-dark.png);
   display:flex;
   justify-content: center;
   align-items: center;
