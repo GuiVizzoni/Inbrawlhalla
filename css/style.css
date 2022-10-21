@@ -4,17 +4,19 @@
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 body {
   overflow-x: hidden;
   background-image: url(../imagens/Site-background-dark.png);
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  
-  background-repeat:repeat-x;
-background-attachment:fixed
+
+  background-repeat: repeat-x;
+  background-attachment: fixed
 }
+
 .testee {
   position: relative;
   background: #444;
@@ -27,36 +29,32 @@ background-attachment:fixed
   transition: 0.5s;
 }
 
-.testee:hover
-{
-  
+.testee:hover {
+
   background: var(--clr);
   color: var(--clr);
   box-shadow: 0 0 35px var(--clr);
 }
-.testee::before
-{
+
+.testee::before {
   content: '';
   position: absolute;
   inset: 2px;
   background: #27282c;
 }
 
-.testee span
-{
-  position:relative;
+.testee span {
+  position: relative;
   z-index: 1;
 }
 
-.testee i
-{
+.testee i {
   position: absolute;
   inset: 0;
-  display:block;
+  display: block;
 }
 
-.testee i::before
-{
+.testee i::before {
   content: '';
   position: absolute;
   top: -3.5px;
@@ -67,17 +65,15 @@ background-attachment:fixed
   background: #27282c;
   transform: translateX(-50%);
   transition: 0.5s;
-  
+
 }
 
-.testee:hover i::before
-{
+.testee:hover i::before {
   width: 20px;
   left: 20%;
 }
 
-.testee i::after
-{
+.testee i::after {
   content: '';
   position: absolute;
   bottom: -3.5px;
@@ -88,24 +84,23 @@ background-attachment:fixed
   background: #27282c;
   transform: translateX(-50%);
   transition: 0.5s;
-  
+
 }
 
-.testee:hover i::after
-{
+.testee:hover i::after {
   width: 20px;
   left: 80%;
 }
 
 a {
-color: rgb(255, 255, 255);
-text-decoration: none;
-transition: 0.3s;
-font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: 0.3s;
+  font-weight: bold;
 }
 
 a:hover {
-opacity: 0.7;
+  opacity: 0.7;
 }
 
 .logo {
@@ -119,7 +114,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  
+
   height: 8vh;
 }
 
@@ -136,11 +131,11 @@ main {
 
 /*Menu de Navegação*/
 
-  .nav-list ul {
+.nav-list ul {
   list-style: none;
   display: flex;
 
-   /*mudança rapida*/
+  /*mudança rapida*/
   text-decoration: none;
   text-transform: uppercase;
   font-size: 25px;
@@ -160,43 +155,43 @@ main {
 
 }
 
-.testee{
+.testee {
 
   text-decoration: none;
   display: inline-block;
   padding: 10px;
-  
+
 }
 
-.testee span
-{
-  position:relative;
+.testee span {
+  position: relative;
   z-index: 1;
 }
 
 /*Sub Menu Principal*/
 
-.nav-list  ul ul{
-display: none;
-position: absolute;
-opacity: 0;
+.nav-list ul ul {
+  display: none;
+  position: absolute;
+  opacity: 0;
 
 }
 
-.nav-list ul li:hover ul{
-display: block;
-opacity: 1;
+.nav-list ul li:hover ul {
+  display: block;
+  opacity: 1;
 
 }
 
 .nav-list ul ul {
-width: flex;
-align-self: auto;
+  width: flex;
+  align-self: auto;
 }
 
 .nav-list ul ul li a {
-display: block;
+  display: block;
 }
+
 /*mobile-menu*/
 
 .mobile-menu {
@@ -213,29 +208,48 @@ display: block;
 }
 
 .gif {
-      text-align: center;
-     padding: 15px;
+  text-align: center;
+  padding: 15px;
 }
+
 /*Lista personagens jogados*/
 .lista li {
-  display:inline-block;
-    border:20px;
-    margin: 30px;
-    max-width:200px;
-    max-height:200px;
-    width: auto;
-    height: auto;
+  display: inline-block;
+  border: 20px;
+  margin: 30px;
+  max-width: 200px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
 }
 
 .lista li img {
-  max-width:150px;
-  max-height:150px;
+  max-width: 150px;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+}
+
+/*Lista plataformas disponíveis*/
+.lista-plataformas li {
+  display:grid;
+  border: 20px;
+  margin: 30px;
+  max-width: 200px;
+  max-height: 200px;
+  width: auto;
+  height: auto;
+}
+
+.lista-plataformas li img {
+  max-width: 150px;
+  max-height: 150px;
   width: auto;
   height: auto;
 }
 
 /*Botão Teste*/
-.teste{
+.teste {
   position: relative;
   background: #444;
   color: #fff;
@@ -248,36 +262,32 @@ display: block;
 
 }
 
-.teste:hover
-{
+.teste:hover {
   letter-spacing: 0.25em;
   background: var(--clr);
   color: var(--clr);
   box-shadow: 0 0 35px var(--clr);
 }
-.teste::before
-{
+
+.teste::before {
   content: '';
   position: absolute;
   inset: 2px;
   background: #27282c;
 }
 
-.teste span
-{
-  position:relative;
+.teste span {
+  position: relative;
   z-index: 1;
 }
 
-.teste i
-{
+.teste i {
   position: absolute;
   inset: 0;
-  display:block;
+  display: block;
 }
 
-.teste i::before
-{
+.teste i::before {
   content: '';
   position: absolute;
   top: -3.5px;
@@ -288,17 +298,15 @@ display: block;
   background: #27282c;
   transform: translateX(-50%);
   transition: 0.5s;
-  
+
 }
 
-.teste:hover i::before
-{
+.teste:hover i::before {
   width: 20px;
   left: 20%;
 }
 
-.teste i::after
-{
+.teste i::after {
   content: '';
   position: absolute;
   bottom: -3.5px;
@@ -309,11 +317,10 @@ display: block;
   background: #27282c;
   transform: translateX(-50%);
   transition: 0.5s;
-  
+
 }
 
-.teste:hover i::after
-{
+.teste:hover i::after {
   width: 20px;
   left: 80%;
 }
@@ -322,7 +329,9 @@ display: block;
 /*Pc 1080p*/
 
 @media screen {
-  section, aside {
+
+  section,
+  aside {
     position: relative;
     width: 1920px;
     height: 1080px;
@@ -331,7 +340,9 @@ display: block;
 
 /*Pc 768p*/
 @media screen {
-  section, aside {
+
+  section,
+  aside {
     position: relative;
     width: 1024px;
     height: 768px;
@@ -340,29 +351,33 @@ display: block;
 
 /* iphone 13 pro max */
 @media screen {
-  section, aside {
 
-position: relative;
-width: 428px;
-height: 926px;
-}
+  section,
+  aside {
 
-
-/*Tablets e Ipads*/
-
-@media screen {
-  section, aside {
-
-position: relative;
-width: 744px;
-height: 1133px;
-
+    position: relative;
+    width: 428px;
+    height: 926px;
   }
-}
 
-/*PADRÃO FIFA DOS MEDIA QUERIES*/
-@media screen {
-  section, aside {
 
+  /*Tablets e Ipads*/
+
+  @media screen {
+
+    section,
+    aside {
+
+      position: relative;
+      width: 744px;
+      height: 1133px;
+
+    }
   }
-}
+
+  /*PADRÃO FIFA DOS MEDIA QUERIES*/
+  @media screen {
+
+    section,
+    aside {}
+  }
