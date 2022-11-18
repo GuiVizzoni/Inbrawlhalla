@@ -10,6 +10,45 @@
     div.menu-bar ul ul {
       display: menu;
     }
+
+    .diana {
+      background: #044fae;
+      border: 1px solid #044fae;
+      text-align: center;
+      color: aliceblue;
+      font-size: 150%;
+      padding: 5px 5px 5px 5px;
+    }
+
+    .legend {
+      color: white;
+      font-style: italic;
+    }
+
+    .imgbar {
+      width: 100%;
+      max-width: 200px;
+      margin-bottom: 10px;
+    }
+    .imgico {
+      padding-left: 35px;
+    }    
+
+    .icoforca {
+      background: url(imagens/Diana/iconeforca.png) no-repeat;
+    }
+
+    .icodestreza {
+      background: url(imagens/Diana/iconedestreza.png) no-repeat;
+    }
+
+    .icodefesa {
+      background: url(imagens/Diana/iconedefesa.png) no-repeat;
+    }
+
+    .icorapidez {
+      background: url(imagens/Diana/iconerapidez.png) no-repeat;
+    }
   </style>
 </head>
 
@@ -17,18 +56,17 @@
   <!-- menu de navegação -->
   <div id="menu">
     <header>
-
       <div class="mobile-menu">
         <div class="line1"></div>
         <div class="line2"></div>
         <div class="line3"></div>
       </div>
       <nav class="nav-list">
-
         <ul>
           <li><a class="testee" href="/" style="--clr:#1e9bff"><span>Inbrawlhalla</span></a> </li>
           <li><a class="testee" style="--clr:#1e9bff" href="#"><span>Home</span></a> </li>
-          <li><a class="testee" style="--clr:#1e9bff" href="https://guivizzoni.github.io/Inbrawlhalla/personagens.html" style="--clr:#1e9bff"><span>Personagens</span></a> </li>
+          <li><a class="testee" style="--clr:#1e9bff" href="https://guivizzoni.github.io/Inbrawlhalla/personagens.html"
+              style="--clr:#1e9bff"><span>Personagens</span></a> </li>
           <li><a class="testee" style="--clr:#1e9bff" href="#"><span>Passe de Batalha</span></a>
             <ul>
               <li><a class="testee" style="--clr:#1e9bff" href="#"><span>Passe de Batalha</span></a></li>
@@ -38,93 +76,58 @@
           </li>
           <li><a class="testee " style="--clr:#1e9bff" href="#"><span>Sobre</span></a> </li>
         </ul>
-
-
       </nav>
-
     </header>
     <main>
-
-
-
       <div class="container">
-
-
-
-        <div class="col"
-          style="width: 100%; border: transparent; background-color: transparent; padding: 0.2em; color: white;">
-
-          <th colspan="2"> </th>
-          <div
-            style="background: #044fae; border: 1px solid #044fae; text-align: center; color: aliceblue; font-size: 150%; padding: 5px 5px 5px 5px;">
-
-            <b>Diana</b>
-
+        <div class="row">
+          <div class="diana">
+            <b>DIANA</b>
           </div>
-
-
-          <div style="padding-top:30px;">
-            <div id="main-grid"
-              style="gap:30px;display:grid;grid-template-columns: 60% 36%;width:100%;vertical-align:top;align-items:flex-start;">
-
+        </div>
+        <div class="row">
+          <div class="col col-sm-6 col-md-12 text-center">
+            <img style="margin-top:30px" alt="imagens/Diana/Diana.png" src="imagens/Diana/Diana.png" decoding="async" width="200" height="300">
+            <p class="legend">A Caçadora de Monstros</p>
+            <div class="mb-4"
+              style="background: #044fae; border: 1px solid #044fae; text-align: center; color: #FFFFFF; font-size: 150%; padding: 5px 5px 5px 5px;">
+              <b>Estatísticas</b>
+            </div>
+            <div class="row pb-3">
+              <div class="col">
+                <img class="imgico icoforca imgbar" src="imagens/Diana/forca.png" alt="">
+                <img class="imgico icodestreza imgbar" src="imagens/Diana/destreza.png" alt="">
+              </div>
+              <div class="col">
+                <img class="imgico icodefesa imgbar" src="imagens/Diana/defesa.png" alt="">
+                <img class="imgico icorapidez imgbar" src="imagens/Diana/rapidez.png" alt="">
+              </div>
             </div>
           </div>
-          <div
-            style="gap:30px;display:grid;grid-template-columns: 60% 36%;width:100%;vertical-align:top;align-items:flex-start;">
-
-
-            <a href="/imagens/Diana/Diana.png" class="imagem"></a>
-
-            <a href="/imagens/Diana/Diana.png" class="imagem"></a>
-            <img alt="Diana.png" src="/imagens/Diana/Diana.png" decoding="async" width="200" height="300">
-
-            <div>
-              <div
-                style="background: #044fae; border: 1px solid #044fae; text-align: center; color: #FFFFFF; font-size: 150%; padding: 5px 5px 5px 5px;">
-                <b>Sobre</b>
-              </div>
-              <p
-                style="color: aliceblue; text-align:center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                Caça monstros impiedosamente com treinamento de elite, armas exóticas incríveis e um sorriso malicioso.
-              </p>
-              <div
-                style="background: #044fae; border: 1px solid #044fae; text-align: center; color: #FFFFFF; font-size: 150%; padding: 5px 5px 5px 5px;">
-                <b>estatisticas</b>
-              </div>
-              <img src="imagens/Diana/iconeforca.png"> <img src="imagens/Diana/forca.png" alt="">
-              <img src="imagens/Diana/iconedestreza.png"> <img src="imagens/Diana/destreza.png" alt="">
-              <img src="imagens/Diana/iconedefesa.png"> <img src="imagens/Diana/defesa.png" alt="">
-              <img src="imagens/Diana/iconerapidez.png"> <img src="imagens/Diana/rapidez.png" alt="">
+          <div class="col col-sm-6 col-md-12">
+            <div class="mt-3"
+              style="background: #044fae; border: 1px solid #044fae; text-align: center; color: #FFFFFF; font-size: 150%; padding: 5px 5px 5px 5px;">
+              <b>Sobre</b>
             </div>
-
-
+            <p
+              style="color: aliceblue; text-align:center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+              Caça monstros impiedosamente com treinamento de elite, armas exóticas incríveis e um sorriso
+              malicioso.
+            </p>
           </div>
-          <div colspan="2" style="font-style:italic">A Caçadora de Monstros</div>
         </div>
       </div>
+  </div>
 
-
-
-      <div
-        style="background: #044fae; border: 1px solid #044fae; text-align: center; color: aliceblue; font-size: 150%; padding: 5px 5px 5px 5px;">
-        Skins</div>
-      <div>
-     
-        <img src="imagens/Diana/Bitten_Diana.png" alt="">
-        <img src="imagens/Diana/Survivor_Diana.png" alt="">
-        <img src="imagens/Diana/Wyrmslayer_Diana.png" alt="">
-        <img src="imagens/Diana/Shadowstalker_Diana.png" alt="">
-        <img src="imagens/Diana/Demonkin_Diana.png" alt="">
-        <img src="imagens/Diana/Elven_Ranger_Diana.png" alt="">
-</div>
-     
-
-
-
-
-
-
-    </main>
+  <div>
+    <img src="imagens/Diana/Bitten_Diana.png" alt="">
+    <img src="imagens/Diana/Survivor_Diana.png" alt="">
+    <img src="imagens/Diana/Wyrmslayer_Diana.png" alt="">
+    <img src="imagens/Diana/Shadowstalker_Diana.png" alt="">
+    <img src="imagens/Diana/Demonkin_Diana.png" alt="">
+    <img src="imagens/Diana/Elven_Ranger_Diana.png" alt="">
+  </div>
+  </main>
 </body>
 
 </html>
