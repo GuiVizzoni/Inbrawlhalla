@@ -224,8 +224,8 @@ main {
 }
 
 .lista li img {
-  max-width: 100px;
-  max-height: 120px;
+  max-width: 150px;
+  max-height: 150px;
   width: auto;
   height: auto;
 }
@@ -359,7 +359,7 @@ main {
     width: 428px;
     height: 926px;
   }
-
+}
 
   /*Tablets e Ipads*/
 
@@ -375,11 +375,49 @@ main {
     }
   }
 
+  @media screen and (min-width: 600px) {
+		div.texto p {
+		  font-size: 20px;
+		}
+		
+	  }
+	  
+	  @media screen and (max-width: 600px) {
+		div.texto p {
+		  font-size: 10px;
+		}
+		
+	  }
+
+	@media screen and (max-width: 1200px) {
+		.h1 {
+   			 font-size: 10px;
+		}
+	}
+
+
+	@media screen and (min-width: 375px){
+		.h1 {
+    		font-size: 10px;
+		}
+	}
+
+	@media (max-width:800px) {
+		.menu-principal {
+			height: 12vmax;
+		}
+
+	}
+
+
+		@media (min-width:100px) and (max-width:1000px) {
+			.menu-principal {
+				height: 110px;
+			
+			}
   /*PADRÃO FIFA DOS MEDIA QUERIES*/
   @media screen {
 
     section,
     aside {}
   }
-
- 
