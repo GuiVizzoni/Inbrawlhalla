@@ -1,191 +1,197 @@
+<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <title>InBrawlhalla</title>
-  <link rel="shortcut icon" href="./imagens/icon.png">
-  <link rel="stylesheet" href="./css/style.css">
-  <link href="./css/bootstrap.min.css" rel="stylesheet">
-  <style type="text/css">
-    div.menu-bar ul ul {
-      display: menu;
-    }
-
-    .imgbar {
-      width: 100%;
-      max-width: 200px;
-      margin-bottom: 10px;
-    }
-
-    .skins {
-      display: block;
-      max-width: 100px;
-      max-height: 120px;
-      width: auto;
-      height: auto;
-
-    }
-  </style>
-  <script src="./java/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <title>InBrawlhalla</title>
+    <link rel="shortcut icon" href="./imagens/icon.png">
+    <link rel="stylesheet" href="./css/style2.css">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+    </style>
+    <script src="./java/bootstrap.min.js"></script>
+    <script src="./java/main.js"></script>
 </head>
 
-
 <body>
+    <div class="grid-container">
+        <div class="menu1">
+            <header>
 
-  <!-- menu de navegação -->
-  <div id="menu">
-    <header>
-      
-      <nav class="nav-list">
+                <nav class="nav-list">
 
-        <ul>
-          <li><a class="testee" href="/" style="--clr:#1e9bff"><span>Inbrawlhalla</span></a> </li>
-          <li><a class="testee" style="--clr:#1e9bff"
-              href="https://guivizzoni.github.io/Inbrawlhalla/"><span>Home</span></a> </li>
-          <li><a class="testee" style="--clr:#1e9bff"
-              href="https://guivizzoni.github.io/Inbrawlhalla/personagens.html"><span>Personagens</span></a> </li>
-          <li><a class="testee" style="--clr:#1e9bff" href="#"><span>Passe de Batalha</span></a>
-            <ul>
-              <li><a class="testee" style="--clr:#1e9bff" href="#"><span>Passe de Batalha</span></a></li>
-              <li><a class="testee" style="--clr:#1e9bff" href="#"><span>Eventos</span></a></li>
-              <li><a class="testee" style="--clr:#1e9bff" href="#"><span>Outros</span></a></li>
-            </ul>
-          </li>
-          <li><a class="testee " style="--clr:#1e9bff" href="#"><span>Sobre</span></a> </li>
-        </ul>
-      </nav>
+                    <ul>
+                        <li><span><img class="logo" src="./imagens/logo.png"></span> </li>
+                        <li><a class="testee" style="--clr:#1e9bff"
+                                href="https://guivizzoni.github.io/Inbrawlhalla/"><span>Home</span></a> </li>
+                        <li><a class="testee" style="--clr:#1e9bff"
+                                href="https://guivizzoni.github.io/Inbrawlhalla/personagens.html"><span>Personagens</span></a>
+                        </li>
+                        <li><a class="testee " style="--clr:#1e9bff" href="https://guivizzoni.github.io/Inbrawlhalla/sobre.html"><span>Sobre Nós</span></a> </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="menu-vertical">
 
-    </header>
-    <main>
+            <!-- Top Navigation Menu -->
+            <div class="topnav">
+                <a href="https://guivizzoni.github.io/Inbrawlhalla/" class="active"><img class="imga" src="./imagens/logo.png"></a>
+                <div id="myLinks">
+                    <a href="https://guivizzoni.github.io/Inbrawlhalla/personagens.html">Personagens</a>
+                    <a href="https://guivizzoni.github.io/Inbrawlhalla/sobre.html">Sobre Nós</a>
+                    <a href="#">Enviar um feedback</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="iconvert"><img class="imgv" src="./imagens/linhas.png"></i>
+                </a>
+            </div>
+        </div>
+        <div class="menu3">
 
-      
-        <tbody>
-          <div>
-            <div>
-              <table class="informações-base"
-                style="width: 100%; border: transparent; background-color: transparent; padding: 0.2em; color: white;">
-                <tbody>
+            <div class="conteudo">
 
-                  <tr>
-                    <th colspan="2"> </th>
-                    <div
-                      style="background: #103f7e; border: 1px solid #103f7e; text-align: center; color: aliceblue; font-size: 150%; padding: 5px 5px 5px 5px;">
-                      <div style="float: center;"></div>
-                  <tr>
-                    <th colspan="2"> </th>
-                    <div
-                      style="background: #044fae; border: 1px solid #044fae; text-align: center; color: aliceblue; font-size: 150%; padding: 5px 5px 5px 5px;">
-                      <div style="float: right;"></div>
-                      <b>Bem-Vindo!</b>
-
-                    </div>
-                  </tr>
-
-                  <figure class="gif">
+                <div
+                    style="background: #044fae; border: 1px solid #044fae; text-align: center; color: aliceblue; font-size: 150%; padding: 5px 5px 5px 5px;">
+                    <b>BEM-VINDO!</b>
+                </div>
+                <figure class="gif">
                     <img src="https://c.tenor.com/DesOImmKoPcAAAAC/brawlhalla.gif">
-                  </figure>
+                </figure>
 
-                  <div>
-                    <tr>
-                      <th colspan="2"> </th>
-                      <div
+                <div class="texto">
+                    <div
                         style="background: #044fae; border: 1px solid #044fae; text-align: center; color: aliceblue; font-size: 150%; padding: 5px 5px 5px 5px;">
-                        <div style="float: right;"></div>
-                        <b>ROTAÇÃO SEMANAL DOS PERSONAGENS:</b>
+                        <b>PERSONAGENS MAIS JOGADOS DA SEMANA:</b>
+                    </div>
+                </div>
 
-                      </div>
+                <ul class="lista">
+                    <li class="img"><img src="./imagens/Personagens/mordex.png">
+                        <p class="textop" style="text-align: center; color: aliceblue;">Mordex</p>
+                    </li>
+                    </li>
+                    <li class="img"><img src="./imagens/Personagens/nix.png">
+                        <p class="textop" style="text-align: center; color: aliceblue;">Nix</p>
+                    </li>
+                    </li>
+                    <li class="img"><img src="./imagens/Personagens/wushang.png">
+                        <p class="textop" style="text-align: center; color: aliceblue;">Wu Shang</p>
+                    </li>
+                    </li>
+                    <li class="img"><img src="./imagens/Personagens/orion.png">
+                        <p class="textop" style="text-align: center; color: aliceblue;">Orion</p>
+                    </li>
+                    </li>
+                    <li class="img"><img src="./imagens/Personagens/hattori.png">
+                        <p class="textop" style="text-align: center; color: aliceblue;">Hattori</p>
+                    </li>
+                    <li class="img"><img src="./imagens/Personagens/artemis.png">
+                        <p class="textop" style="text-align: center; color: aliceblue;">Artemis</p>
+                    </li>
+                    </li>
+                    <li class="img"><img src="./imagens/Personagens/val.png">
+                        <p class="textop" style="text-align: center; color: aliceblue;">Val</p>
+                    </li>
 
-                      <ul class="lista">
-                        <li><img src="./imagens/fait.png"></li>
-                        <li><img src="./imagens/jaeyun.png"></li>
-                        <li><img src="./imagens/nix.png"></li>
-                        <li><img src="./imagens/hattori.png"></li>
-                        <li><img src="./imagens/gnash.png"></li>
-                        <li><img src="./imagens/diana.png"></li>
-                      </ul>
-                  </div>
-  </div>
-  </tr>
-  </tbody>
-  </tbody>
-  <tr>
-    <th colspan="2"> </th>
-    <div
-      style="background: #044fae; border: 1px solid #044fae; text-align: center; color: aliceblue; font-size: 150%; padding: 5px 5px 5px 5px;">
-      <div style="float: right;"></div>
-      <b>NOTÍCIAS</b>
+                    <li class="img"><img src="./imagens/Personagens/cross.png">
+                        <p class="textop" style="text-align: center; color: aliceblue;">Cross</p>
+                    </li>
+                    </li>
+                </ul>
 
-    </div>
-  </tr>
-  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-        aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-        aria-label="Slide 3"></button>
-    </div>
+                <div
+                    style="background: #044fae; border: 1px solid #044fae; text-align: center; color: aliceblue; font-size: 150%; padding: 5px 5px 5px 5px;">
+                    <div style="float: right;"></div>
+                    <b>NOTÍCIAS</b>
 
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="2000">
-        <img src="imagens/BCX_TESTE.jpg" class="d-block w-100" alt="..."
-          style="width: 1024px !important; height: 720px !important">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Some representative placeholder content for the first slide.</p>
+                </div>
+                <div class="p-3 m-0 border-0">
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="3000">
+                                <img class="imgslide" src="imagens/Slides/rotacao_semanal.png" class="d-block w-100"
+                                    alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Rotação semanal dos personagens</h5>
+                                    <p>Esses são os personagens que ficarão livres para jogar na semana.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img class="imgslide" src="imagens/Slides/ultimos_eventos.png" class="d-block w-100"
+                                    alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Últimos eventos</h5>
+                                    <p>Esse foi o último evento apresentado nas lives da twitch.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img class="imgslide" src="imagens/Slides/MetadevTeros.png" class="d-block w-100"
+                                    alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Nova Metadev anunciada</h5>
+                                    <p>Metadev Teros foi distribuído a todos que compareceram na bcx 2022.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    style="background: #044fae; border: 1px solid #044fae; text-align: center; color: aliceblue; font-size: 150%; padding: 5px 5px 5px 5px;">
+                    <b>REDES SOCIAIS</b>
+                </div>
+                <div class="p-3 m-0 border-0">
+                <div class="redes-sociais">
+                    <a class="twitter-timeline" data-lang="pt" data-width="600" data-height="800" data-theme="dark"
+                        href="https://twitter.com/Brawlhalla?ref_src=twsrc%5Etfw">Tweets by Brawlhalla</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                </div>
+                </div>
+                <div
+                    style="background: #044fae; border: 1px solid #044fae; text-align: center; color: aliceblue; font-size: 150%; padding: 5px 5px 5px 5px;">
+
+                    <b>PLATAFORMAS DISPONÍVEIS</b>
+                </div>
+                <div class="row pb-3">
+                    <div class="col">
+                        <a href="https://store.steampowered.com/app/291550/Brawlhalla/"><img class="imgbar"
+                                src="./imagens/Plataformas/steam.png"></a>
+                        <a href="https://www.xbox.com/pt-BR/games/store/brawlhalla/C3B1V55CDL0C"><img class="imgbar"
+                                src="./imagens/Plataformas/xbox.png"></a>
+                        <a href="https://store.playstation.com/pt-br/concept/216932"><img class="imgbar"
+                                src="./imagens/Plataformas/ps4.png"></a>
+                        <a href="https://www.nintendo.com/pt-br/store/products/brawlhalla-switch/"><img class="imgbar"
+                                src="./imagens/Plataformas/switch.png"></a>
+                        <a
+                            href="https://play.google.com/store/apps/details?id=air.com.ubisoft.brawl.halla.platform.fighting.action.pvp&hl=pt_BR&gl=US"><img
+                                class="imgbar" src="./imagens/Plataformas/googleplay.png"><a
+                                href="https://play.google.com/store/apps/details?id=air.com.ubisoft.brawl.halla.platform.fighting.action.pvp&hl=pt_BR&gl=US"></a>
+                            <a href="https://apps.apple.com/us/app/brawlhalla/id1491520571"><img class="imgbar"
+                                    src="./imagens/Plataformas/appstore.png"></a>
+                    </div>
+
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <img src="imagens/background.jpg" class="d-block w-100" alt="..."
-          style="width: 1024px !important; height: 720px !important">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>2 slide label</h5>
-          <p>Some representative placeholder content for the first slide.</p>
-        </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-        <img src="imagens/passe1foto.jpg" class="d-block w-100" alt="..."
-          style="width: 1024px !important; height: 720px !important">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>3 slide label</h5>
-          <p>Some representative placeholder content for the first slide.</p>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-  <tr>
-
-    <th colspan="2"> </th>
-    <div
-      style="background: #044fae; border: 1px solid #044fae; text-align: center; color: aliceblue; font-size: 150%; padding: 5px 5px 5px 5px;">
-      <div style="float: right;"></div>
-      <b>PLATAFORMAS DISPONÍVEIS</b>
-    </div>
-    <div class="row pb-3">
-      <div class="col">
-        <img class="imgbar" src="./imagens/Plataformas/steam.png">
-        <img class="imgbar" src="./imagens/Plataformas/xbox.png">
-        <img class="imgbar" src="./imagens/Plataformas/ps4.png">
-        <img class="imgbar" src="./imagens/Plataformas/switch.png">
-        <img class="imgbar" src="./imagens/Plataformas/googleplay.png">
-        <img class="imgbar" src="./imagens/Plataformas/appstore.png">
-      </div>
-      
-    </div>
-    </div>
-
-    </table>
-
-    </main>
 </body>
 
 </html>
