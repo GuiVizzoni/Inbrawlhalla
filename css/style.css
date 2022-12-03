@@ -11,7 +11,7 @@ body {
   margin: 0;
   width: auto;
   height: auto;
-  background-size: cover;
+  background-size: 180%;
   background-repeat: no-repeat;
   min-width: 320px;
   max-width: 100%;
@@ -74,11 +74,6 @@ div.menu-bar ul ul {
 
 .menu5 {
   grid-area: footer;
-}
-
-.twitter-timeline{
-  justify-content: center;
-  align-items: center;
 }
 
 .testee {
@@ -307,6 +302,17 @@ nav {
   display: none;
 }
 
+/*rodapé*/
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #044fae;
+  width: 100%;
+  height: 80px;    
+  bottom: auto;
+  padding-top: 10px;
+}
+
 /*media queries*/
 
 @media (max-width:800px) {
@@ -317,6 +323,10 @@ nav {
 }
 
 @media (min-width:100px) and (max-width:1000px) {
+
+  body {
+    background-size: 600%;
+  }
   .menu1 {
       height: 110px;
 
@@ -351,7 +361,7 @@ nav {
       padding: 14px 16px;
       text-decoration: none;
       display: block;
-      font-size: 16px;
+      font-size: 30px;
       text-decoration: none;
       text-transform: uppercase;
     }
@@ -407,8 +417,9 @@ nav {
       font-size: 30px;
   }
 
-  .rodape {
-      font-size: 30px;
+  footer {
+      width: 100%;
+      height: fit-content;
 
   }
 }
