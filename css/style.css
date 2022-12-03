@@ -6,20 +6,79 @@
 }
 
 body {
-  overflow-x: hidden;
-  background-image: url(../imagens/Site-background-dark.png);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
 
-  background-repeat: repeat-x;
-  background-attachment: fixed
+  background-image: url(../imagens/Site-background-dark.png);
+  margin: 0;
+  width: auto;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 320px;
+  max-width: 100%;
+  min-height: 568px;
+  max-height: 100%;
+}
+
+div.menu-bar ul ul {
+  display: menu;
+}
+
+.imgbar {
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 10px;
+}
+
+.skins {
+  display: block;
+  max-width: 100px;
+  max-height: 120px;
+  width: auto;
+  height: auto;
+
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+      'header header header header header header'
+      'menu main main main main right'
+      'menu footer footer footer footer footer';
+
+}
+
+.grid-container>div {
+  padding: auto 0;
+}
+
+.menu1 {
+  grid-area: header;
+}
+
+.menu2 {
+  grid-area: menu;
+}
+
+.menu3 {
+  grid-area: main;
+}
+
+.menu4 {
+  grid-area: right;
+}
+
+.menu5 {
+  grid-area: footer;
 }
 
 .testee {
   position: relative;
-  background: #444;
+  background: #044fae;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
@@ -40,7 +99,7 @@ body {
   content: '';
   position: absolute;
   inset: 2px;
-  background: #27282c;
+  background: #001322;;
 }
 
 .testee span {
@@ -103,30 +162,12 @@ a:hover {
   opacity: 0.7;
 }
 
-.logo {
-  font-size: 24px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-}
-
 nav {
-  display: flex;
+  display: grid;
   justify-content: space-around;
   align-items: center;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-
   height: 8vh;
-}
-
-main {
-  background: #001322;
-  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(255, 255, 255, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.174) 0px 1px 0px inset;
-  max-width: 1200px;
-  margin: auto;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 /*Menu de Navegação*/
@@ -148,7 +189,7 @@ main {
 }
 
 .nav-list ul li {
-  display: inline;
+  display: flex;
   position: relative;
   letter-spacing: 3px;
   margin-left: 32px;
@@ -192,24 +233,19 @@ main {
   display: block;
 }
 
-/*mobile-menu*/
-
-.mobile-menu {
-  display: none;
-  cursor: pointer;
-}
-
-.mobile-menu div {
-  width: 32px;
-  height: 2px;
-  background: #fff;
-  margin: 8px;
-  transition: 0.3s;
-}
-
 .gif {
   text-align: center;
-  padding: 15px;
+  padding-top: 15px;
+}
+
+.conteudo {
+  background: #001322;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(255, 255, 255, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.174) 0px 1px 0px inset;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  text-align: center;
 }
 
 /*Lista personagens jogados*/
@@ -219,8 +255,6 @@ main {
   margin: 30px;
   max-width: 200px;
   max-height: 200px;
-  width: auto;
-  height: auto;
 }
 
 .lista li img {
@@ -232,7 +266,7 @@ main {
 
 /*Lista plataformas disponíveis*/
 .lista-plataformas li {
-  display:grid;
+  display: grid;
   border: 20px;
   margin: 30px;
   max-width: 200px;
@@ -248,176 +282,128 @@ main {
   height: auto;
 }
 
-/*Botão Teste*/
-.teste {
-  position: relative;
-  background: #444;
-  color: #fff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 1.5em;
-  letter-spacing: 0.1em;
-  padding: 10px 30px;
-  transition: 0.5s;
-
+.imgbar {
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 10px;
 }
 
-.teste:hover {
-  letter-spacing: 0.25em;
-  background: var(--clr);
-  color: var(--clr);
-  box-shadow: 0 0 35px var(--clr);
+.redes-sociais {
+  align-items: center;
+  justify-content: center;
 }
 
-.teste::before {
-  content: '';
-  position: absolute;
-  inset: 2px;
-  background: #27282c;
+.imgslide {
+  height: 720px;
+  width: 800px;
 }
 
-.teste span {
-  position: relative;
-  z-index: 1;
+.menu-vertical{
+  display: none;
 }
 
-.teste i {
-  position: absolute;
-  inset: 0;
-  display: block;
-}
+/*media queries*/
 
-.teste i::before {
-  content: '';
-  position: absolute;
-  top: -3.5px;
-  left: 80%;
-  width: 10px;
-  height: 5px;
-  border: 2px solid var(--clr);
-  background: #27282c;
-  transform: translateX(-50%);
-  transition: 0.5s;
-
-}
-
-.teste:hover i::before {
-  width: 20px;
-  left: 20%;
-}
-
-.teste i::after {
-  content: '';
-  position: absolute;
-  bottom: -3.5px;
-  left: 20%;
-  width: 10px;
-  height: 5px;
-  border: 2px solid var(--clr);
-  background: #27282c;
-  transform: translateX(-50%);
-  transition: 0.5s;
-
-}
-
-.teste:hover i::after {
-  width: 20px;
-  left: 80%;
-}
-
-/*MEDIA QUERIES - SITE RESPONSIVO*/
-/*Pc 1080p*/
-
-@media screen {
-
-  section,
-  aside {
-    position: relative;
-    width: 1920px;
-    height: 1080px;
+@media (max-width:800px) {
+  .menu1 {
+      height: 12vmax;
   }
+
 }
 
-/*Pc 768p*/
-@media screen {
+@media (min-width:100px) and (max-width:1000px) {
+  .menu1 {
+      height: 110px;
 
-  section,
-  aside {
-    position: relative;
-    width: 1024px;
-    height: 768px;
   }
-}
 
-/* iphone 13 pro max */
-@media screen {
-
-  section,
-  aside {
-
-    position: relative;
-    width: 428px;
-    height: 926px;
+  .nav-list{
+      display:none;
   }
-}
-
-  /*Tablets e Ipads*/
-
-  @media screen {
-
-    section,
-    aside {
-
+  .menu-vertical{
+      display:block;  
+      width: 100%;
+      margin: auto;
+      position:fixed;
+      color: rgb(255, 255, 255);
+      border-radius: 10px;
+      height: 90px;
+  }
+  .topnav {
+      position: absolute;
+      overflow: hidden;
+      background-color: #044fae;
       position: relative;
-      width: 744px;
-      height: 1133px;
-
+  }
+  
+    .topnav #myLinks {
+      display: none;
     }
+    
+    .topnav a {
+      
+      color: rgb(255, 255, 255);
+      padding: 14px 16px;
+      text-decoration: none;
+      display: block;
+      font-size: 16px;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    
+    .topnav a.icon {
+      background: #044fae;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    
+    .topnav a:hover {
+      height: 90px;
+      background-color: #044fae;
+      color: rgb(255, 255, 255);
+    }
+    
+    .active {
+      color: #044fae;
+    }
+  
+    .imga{
+      width: 80%;
+    }
+    .imgv{
+      width: 40px;
+    }
+
+  .logo {
+      width: 100%;
+      height: 100%;
   }
 
-  @media screen and (min-width: 600px) {
-		div.texto p {
-		  font-size: 20px;
-		}
-		
-	  }
-	  
-	  @media screen and (max-width: 600px) {
-		div.texto p {
-		  font-size: 10px;
-		}
-		
-	  }
-
-	@media screen and (max-width: 1200px) {
-		.h1 {
-   			 font-size: 10px;
-		}
-	}
-
-
-	@media screen and (min-width: 375px){
-		.h1 {
-    		font-size: 10px;
-		}
-	}
-
-	@media (max-width:800px) {
-		.menu-principal {
-			height: 12vmax;
-		}
-
-	}
-
-
-		@media (min-width:100px) and (max-width:1000px) {
-			.menu-principal {
-				height: 110px;
-			
-			}
-  /*PADRÃO FIFA DOS MEDIA QUERIES*/
-  @media screen {
-
-    section,
-    aside {}
+  .lista img {
+      width: auto;
+      height: 60px;
+      margin: 15px 1px 1px 2px;
   }
+
+  .menu ul li {
+
+      float: left;
+      font-size: 40px;
+  }
+
+  .imgslide{
+      width: 100%;
+      height: 100%;
+  }
+
+  .textop {
+      font-size: 30px;
+  }
+
+  .rodape {
+      font-size: 30px;
+
+  }
+}
