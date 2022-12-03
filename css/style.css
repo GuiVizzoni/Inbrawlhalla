@@ -76,6 +76,11 @@ div.menu-bar ul ul {
   grid-area: footer;
 }
 
+.twitter-timeline{
+  justify-content: center;
+  align-items: center;
+}
+
 .testee {
   position: relative;
   background: #044fae;
