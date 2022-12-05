@@ -11,7 +11,7 @@
       display: menu;
     }
 
-    .cassidy {
+    .diana {
       background: #044fae;
       border: 1px solid #044fae;
       text-align: center;
@@ -53,49 +53,67 @@
     .skins{
      display: block;
      padding-left: 9.5%;
+
     }
-    
   </style>
+  <script src="./java/bootstrap.min.js"></script>
+  <script src="./java/main.js"></script>
 </head>
 
 <body>
-  <!-- menu de navegação -->
-  <div id="menu">
-    <header>
-      <div class="mobile-menu">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
+  <div class="grid-container">
+    <div class="menu1">
+      <header>
+
+        <nav class="nav-list">
+
+          <ul>
+            <li><span><img class="logo" src="./imagens/logo.png"></span> </li>
+            <li><a class="testee" style="--clr:#1e9bff"
+                href="https://guivizzoni.github.io/Inbrawlhalla/"><span>Home</span></a> </li>
+            <li><a class="testee" style="--clr:#1e9bff"
+                href="https://guivizzoni.github.io/Inbrawlhalla/personagens.html"><span>Personagens</span></a>
+            </li>
+            <li><a class="testee " style="--clr:#1e9bff"
+                href="https://guivizzoni.github.io/Inbrawlhalla/sobre.html"><span>Sobre Nós</span></a> </li>
+            <li><a class="testee " style="--clr:#1e9bff"
+                href="https://guivizzoni.github.io/Inbrawlhalla/feedback.html"><span>Enviar Feedback</span></a> </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <div class="menu-vertical">
+
+      <!-- Top Navigation Menu -->
+      <div class="topnav">
+        <a href="https://guivizzoni.github.io/Inbrawlhalla/" class="active"><img class="imga"
+            src="./imagens/logo.png"></a>
+        <div id="myLinks">
+          <a href="https://guivizzoni.github.io/Inbrawlhalla/personagens.html">Personagens</a>
+          <a href="https://guivizzoni.github.io/Inbrawlhalla/sobre.html">Sobre Nós</a>
+          <a href="https://guivizzoni.github.io/Inbrawlhalla/feedback.html">Enviar um feedback</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="iconvert"><img class="imgv" src="./imagens/linhas.png"></i>
+        </a>
       </div>
-      <nav class="nav-list">
-        <ul>
-          <li><a class="testee" href="/" style="--clr:#1e9bff"><span>Inbrawlhalla</span></a> </li>
-          <li><a class="testee" style="--clr:#1e9bff" href="#"><span>Home</span></a> </li>
-          <li><a class="testee" style="--clr:#1e9bff" href="https://guivizzoni.github.io/Inbrawlhalla/personagens.html"
-              style="--clr:#1e9bff"><span>Personagens</span></a> </li>
-          <li><a class="testee" style="--clr:#1e9bff" href="#"><span>Passe de Batalha</span></a>
-            <ul>
-              <li><a class="testee" style="--clr:#1e9bff" href="#"><span>Passe de Batalha</span></a></li>
-              <li><a class="testee" style="--clr:#1e9bff" href="#"><span>Eventos</span></a></li>
-              <li><a class="testee" style="--clr:#1e9bff" href="#"><span>Outros</span></a></li>
-            </ul>
-          </li>
-          <li><a class="testee " style="--clr:#1e9bff" href="#"><span>Sobre</span></a> </li>
-        </ul>
-      </nav>
-    </header>
-    <main>
+    </div>
+    <div class="menu3">
+
       <div class="container">
-        <div class="row">
-          <div class="cassidy">
+        <div class="conteudo">
+          <div class="row">
+            <div class="diana">
             <b>cassidy</b>
           </div>
         </div>
         <div class="row">
           <div class="col col-sm-6 col-md-12 text-center">
             <img style="margin-top:30px" alt="imagens/Diana/Diana.png" src="imagens/Cassidy/Cassidy.png" decoding="async" width="200" height="300">
+            <div class="texto">
             <p class="legend">O Marechal do Velho Oeste</p>
             <p class="legend">Temido por bandidos e vampiros desde os quinze anos, Cassidy é o marechal mais difícil de usar um distintivo em ambos os lados do Bifrost.</p>
+            </div>
             <div class="mb-4"
               style="background: #044fae; border: 1px solid #044fae; text-align: center; color: #FFFFFF; font-size: 150%; padding: 5px 5px 5px 5px;">
               <b>Estatísticas</b>
@@ -116,6 +134,7 @@
               style="background: #044fae; border: 1px solid #044fae; text-align: center; color: #FFFFFF; font-size: 150%; padding: 5px 5px 5px 5px;">
               <b>Sobre</b>
             </div>
+            <div class="texto">
             <p
               style="color: aliceblue; text-align:justify; vertical-align: inherit;">
               Quando Cassidy Miller, de quinze anos, capturou Wild Zeb e sua gangue, Zeb insistiu que sua arma estava emperrada e o sol estava em seus olhos. Mas os bandidos logo mudaram de tom e, apenas cinco anos depois, Bloody Cal Johnson se gabou da prisão de que Utah havia sido forçado a chamar o grande marechal Cassidy apenas para derrubá-lo.
@@ -124,6 +143,7 @@ Em sua longa carreira, a insistência de Cassidy em justiça para todos rendeu a
 
 Para Cassidy, Valhalla é como qualquer outra cidade próspera de fronteira que precisa de seu tipo rude de Justiça. Ela está sempre à procura de tipos suspeitos e acredita que o problema está se formando.
             </p>
+            </div>
           </div>
         </div>
       
@@ -132,7 +152,7 @@ Para Cassidy, Valhalla é como qualquer outra cidade próspera de fronteira que 
           style="background: #044fae; border: 1px solid #044fae; text-align: center; color: #FFFFFF; font-size: 150%; padding: 5px 5px 5px 5px;">
           <b>Skins</b>
         </div>
-      <div class="skins">
+      <div class="skins-personagens">
         <img src="imagens/Cassidy/SpaceRaceCassidy.png" alt="">
         <img src="imagens/Cassidy/HighNoonCassidy.png" alt="">
         <img src="imagens/Cassidy/MaskedHeroCassidy.png" alt="">
@@ -146,8 +166,19 @@ Para Cassidy, Valhalla é como qualquer outra cidade próspera de fronteira que 
       </div>
   </div>
 </div>
- 
-  </main>
+</div>
+</div>
+</div>
+<footer>
+  <p class="textop" style="text-align: center; color: aliceblue;">Planos de fundo de fases, retratos de lendas e
+    ícones de estatísticas da Blue Mammoth Games.
+    <br>
+    InBrawhalla não é endossado pela Blue Mammoth Games e não reflete os pontos de vista ou opiniões da Blue
+    Mammoth Games ou de qualquer pessoa oficialmente envolvida na produção ou gerenciamento de Brawlhalla.
+    Brawlhalla e Blue Mammoth Games são marcas comerciais e registradas da Blue Mammoth Games.</a>
+  </p>
+</footer>
+
 </body>
 
 </html>
