@@ -56,38 +56,54 @@
 
     }
   </style>
+  <script src="./java/bootstrap.min.js"></script>
+  <script src="./java/main.js"></script>
 </head>
 
 <body>
-  <!-- menu de navegação -->
-  <div id="menu">
-    <header>
-      <div class="mobile-menu">
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
+  <div class="grid-container">
+    <div class="menu1">
+      <header>
+
+        <nav class="nav-list">
+
+          <ul>
+            <li><span><img class="logo" src="./imagens/logo.png"></span> </li>
+            <li><a class="testee" style="--clr:#1e9bff"
+                href="https://guivizzoni.github.io/Inbrawlhalla/"><span>Home</span></a> </li>
+            <li><a class="testee" style="--clr:#1e9bff"
+                href="https://guivizzoni.github.io/Inbrawlhalla/personagens.html"><span>Personagens</span></a>
+            </li>
+            <li><a class="testee " style="--clr:#1e9bff"
+                href="https://guivizzoni.github.io/Inbrawlhalla/sobre.html"><span>Sobre Nós</span></a> </li>
+            <li><a class="testee " style="--clr:#1e9bff"
+                href="https://guivizzoni.github.io/Inbrawlhalla/feedback.html"><span>Enviar Feedback</span></a> </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <div class="menu-vertical">
+
+      <!-- Top Navigation Menu -->
+      <div class="topnav">
+        <a href="https://guivizzoni.github.io/Inbrawlhalla/" class="active"><img class="imga"
+            src="./imagens/logo.png"></a>
+        <div id="myLinks">
+          <a href="https://guivizzoni.github.io/Inbrawlhalla/personagens.html">Personagens</a>
+          <a href="https://guivizzoni.github.io/Inbrawlhalla/sobre.html">Sobre Nós</a>
+          <a href="https://guivizzoni.github.io/Inbrawlhalla/feedback.html">Enviar um feedback</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="iconvert"><img class="imgv" src="./imagens/linhas.png"></i>
+        </a>
       </div>
-      <nav class="nav-list">
-        <ul>
-          <li><a class="testee" href="/" style="--clr:#1e9bff"><span>Inbrawlhalla</span></a> </li>
-          <li><a class="testee" style="--clr:#1e9bff" href="#"><span>Home</span></a> </li>
-          <li><a class="testee" style="--clr:#1e9bff" href="https://guivizzoni.github.io/Inbrawlhalla/personagens.html"
-              style="--clr:#1e9bff"><span>Personagens</span></a> </li>
-          <li><a class="testee" style="--clr:#1e9bff" href="#"><span>Passe de Batalha</span></a>
-            <ul>
-              <li><a class="testee" style="--clr:#1e9bff" href="#"><span>Passe de Batalha</span></a></li>
-              <li><a class="testee" style="--clr:#1e9bff" href="#"><span>Eventos</span></a></li>
-              <li><a class="testee" style="--clr:#1e9bff" href="#"><span>Outros</span></a></li>
-            </ul>
-          </li>
-          <li><a class="testee " style="--clr:#1e9bff" href="#"><span>Sobre</span></a> </li>
-        </ul>
-      </nav>
-    </header>
-    <main>
+    </div>
+    <div class="menu3">
+
       <div class="container">
-        <div class="row">
-          <div class="diana">
+        <div class="conteudo">
+          <div class="row">
+            <div class="diana">
             <b>THATCH</b>
           </div>
         </div>
@@ -132,7 +148,7 @@ Para Thatch, o Torneio é um paraíso de caos e fogo, mas nem isso mata sua sede
           style="background: #044fae; border: 1px solid #044fae; text-align: center; color: #FFFFFF; font-size: 150%; padding: 5px 5px 5px 5px;">
           <b>Skins</b>
         </div>
-      <div class="skins">
+      <div class="skins-personagens">
         <img src="imagens/Thatch/Cursed_Gold_Thatch.png" alt="">
         <img src="imagens/Thatch/Castaway_Thatch.png" alt="">
         <img src="imagens/Thatch/Biker_Thatch.png" alt="">
@@ -149,8 +165,18 @@ Para Thatch, o Torneio é um paraíso de caos e fogo, mas nem isso mata sua sede
       </div>
   </div>
 </div>
- 
-  </main>
+</div>
+</div>
+</div>
+<footer>
+  <p class="textop" style="text-align: center; color: aliceblue;">Planos de fundo de fases, retratos de lendas e
+    ícones de estatísticas da Blue Mammoth Games.
+    <br>
+    InBrawhalla não é endossado pela Blue Mammoth Games e não reflete os pontos de vista ou opiniões da Blue
+    Mammoth Games ou de qualquer pessoa oficialmente envolvida na produção ou gerenciamento de Brawlhalla.
+    Brawlhalla e Blue Mammoth Games são marcas comerciais e registradas da Blue Mammoth Games.</a>
+  </p>
+</footer>
 </body>
 
 </html>
