@@ -1,179 +1,194 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Xull</title>
-  <link rel="shortcut icon" href="./imagens/icon.png">
-  <link rel="stylesheet" href="./css/style.css">
-  <link href="./css/bootstrap.min.css" rel="stylesheet">
-  <style type="text/css">
-    .diana {
-      background: #044fae;
-      border: 1px solid #044fae;
-      text-align: center;
-      color: aliceblue;
-      font-size: 150%;
-      padding: 5px 5px 5px 5px;
-    }
+    <meta charset="UTF-8">
+    <title>Xull</title>
+    <link rel="shortcut icon" href="./imagens/icon.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        .diana {
+            background: #044fae;
+            border: 1px solid #044fae;
+            text-align: center;
+            color: aliceblue;
+            font-size: 150%;
+            padding: 5px 5px 5px 5px;
+        }
 
-    .legend {
-      color: white;
-      font-style: italic;
-    }
+        .legend {
+            color: white;
+            font-style: italic;
+        }
 
-    .imgbar {
-      width: 100%;
-      max-width: 200px;
-      margin-bottom: 10px;
-    }
+        .imgbar {
+            width: 100%;
+            max-width: 200px;
+            margin-bottom: 10px;
+        }
 
-    .imgico {
-      padding-left: 35px;
-    }
+        .imgico {
+            padding-left: 35px;
+        }
 
-    .icoforca {
-      background: url(imagens/Diana/iconeforca.png) no-repeat;
-    }
+        .icoforca {
+            background: url(imagens/Diana/iconeforca.png) no-repeat;
+        }
 
-    .icodestreza {
-      background: url(imagens/Diana/iconedestreza.png) no-repeat;
-    }
+        .icodestreza {
+            background: url(imagens/Diana/iconedestreza.png) no-repeat;
+        }
 
-    .icodefesa {
-      background: url(imagens/Diana/iconedefesa.png) no-repeat;
-    }
+        .icodefesa {
+            background: url(imagens/Diana/iconedefesa.png) no-repeat;
+        }
 
-    .icorapidez {
-      background: url(imagens/Diana/iconerapidez.png) no-repeat;
-    }
+        .icorapidez {
+            background: url(imagens/Diana/iconerapidez.png) no-repeat;
+        }
 
-    .skins-personagens {
-      display: block;
-      padding-left: 9.5%;
-    }
-  </style>
-  <script src="./java/bootstrap.min.js"></script>
-  <script src="./java/main.js"></script>
+        .skins-personagens {
+            display: block;
+            padding-left: 9.5%;
+        }
+    </style>
+    <script src="./java/bootstrap.min.js"></script>
+    <script src="./java/main.js"></script>
 </head>
 
 <body>
-  <div class="grid-container">
-    <div class="menu1">
-      <header>
+    <div class="grid-container">
+        <div class="menu1">
+            <header>
 
-        <nav class="nav-list">
+                <nav class="nav-list">
 
-          <ul>
-            <li><span><img class="logo" src="./imagens/logo.png"></span> </li>
-            <li><a class="testee" style="--clr:#1e9bff"
-                href="https://guivizzoni.github.io/Inbrawlhalla/"><span>Home</span></a> </li>
-            <li><a class="testee" style="--clr:#1e9bff"
-                href="https://guivizzoni.github.io/Inbrawlhalla/personagens.html"><span>Personagens</span></a>
-            </li>
-            <li><a class="testee " style="--clr:#1e9bff"
-                href="https://guivizzoni.github.io/Inbrawlhalla/sobre.html"><span>Sobre Nós</span></a> </li>
-            <li><a class="testee " style="--clr:#1e9bff"
-                href="https://guivizzoni.github.io/Inbrawlhalla/feedback.html"><span>Enviar Feedback</span></a> </li>
-          </ul>
-        </nav>
-      </header>
-    </div>
-    <div class="menu-vertical">
-
-      <!-- Top Navigation Menu -->
-      <div class="topnav">
-        <a href="https://guivizzoni.github.io/Inbrawlhalla/" class="active"><img class="imga"
-            src="./imagens/logo.png"></a>
-        <div id="myLinks">
-          <a href="https://guivizzoni.github.io/Inbrawlhalla/personagens.html">Personagens</a>
-          <a href="https://guivizzoni.github.io/Inbrawlhalla/sobre.html">Sobre Nós</a>
-          <a href="https://guivizzoni.github.io/Inbrawlhalla/feedback.html">Enviar um feedback</a>
+                    <ul>
+                        <li><span><img class="logo" src="./imagens/logo.png"></span> </li>
+                        <li><a class="testee" style="--clr:#1e9bff"
+                                href="https://guivizzoni.github.io/Inbrawlhalla/"><span>Home</span></a> </li>
+                        <li><a class="testee" style="--clr:#1e9bff"
+                                href="https://guivizzoni.github.io/Inbrawlhalla/personagens.html"><span>Personagens</span></a>
+                        </li>
+                        <li><a class="testee " style="--clr:#1e9bff"
+                                href="https://guivizzoni.github.io/Inbrawlhalla/sobre.html"><span>Sobre Nós</span></a>
+                        </li>
+                        <li><a class="testee " style="--clr:#1e9bff"
+                                href="https://guivizzoni.github.io/Inbrawlhalla/feedback.html"><span>Enviar
+                                    Feedback</span></a> </li>
+                    </ul>
+                </nav>
+            </header>
         </div>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="iconvert"><img class="imgv" src="./imagens/linhas.png"></i>
-        </a>
-      </div>
-    </div>
-    <div class="menu3">
+        <div class="menu-vertical">
 
-      <div class="container">
-        <div class="conteudo">
-          <div class="row">
-            <div class="diana">
-              <b>XULL</b>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col col-sm-6 col-md-12 text-center">
-              <img style="margin-top:30px" alt="imagens/Diana/Diana.png" src="imagens/Xull/Xull.png" decoding="async"
-                width="200" height="300">
-              <div class="textop">
-                <p class="legend">O Comandante de Ferro</p>
-                <p class="legend">"Ogro mercenário e desafiador da autoridade."</p>
-              </div>
-              <div class="mb-4"
-                style="background: #044fae; border: 1px solid #044fae; text-align: center; color: #FFFFFF; font-size: 150%; padding: 5px 5px 5px 5px;">
-                <b>Estatísticas</b>
-              </div>
-              <div class="row pb-3">
-                <div class="col">
-                  <img class="imgico icoforca imgbar" src="imagens/Xull/forca.png" alt="">
-                  <img class="imgico icodestreza imgbar" src="imagens/Xull/destreza.png" alt="">
+            <!-- Top Navigation Menu -->
+            <div class="topnav">
+                <a href="https://guivizzoni.github.io/Inbrawlhalla/" class="active"><img class="imga"
+                        src="./imagens/logo.png"></a>
+                <div id="myLinks">
+                    <a href="https://guivizzoni.github.io/Inbrawlhalla/personagens.html">Personagens</a>
+                    <a href="https://guivizzoni.github.io/Inbrawlhalla/sobre.html">Sobre Nós</a>
+                    <a href="https://guivizzoni.github.io/Inbrawlhalla/feedback.html">Enviar um feedback</a>
                 </div>
-                <div class="col">
-                  <img class="imgico icodefesa imgbar" src="imagens/Xull/defesa.png" alt="">
-                  <img class="imgico icorapidez imgbar" src="imagens/Xull/rapidez.png" alt="">
-                </div>
-              </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="iconvert"><img class="imgv" src="./imagens/linhas.png"></i>
+                </a>
             </div>
-            <div class="col col-sm-6 col-md-12">
-              <div class="mt-3"
-                style="background: #044fae; border: 1px solid #044fae; text-align: center; color: #FFFFFF; font-size: 150%; padding: 5px 5px 5px 5px;">
-                <b>Sobre</b>
-              </div>
-              <div class="textop">
-                <p style="color: aliceblue; text-align: justify;  vertical-align: inherit;">
-                    Xull assumiu o comando da Legião de Ferro do Titã Troll com um golpe brutal. Sua primeira ordem foi criar uma brigada de canhão. Sua segunda ordem era que o combate covarde de longo alcance não seria tolerado.
-
-                    Como senhor da guerra do exército mercenário, ele era selvagem, vingativo e extremamente eficaz. Na batalha, ele montou um t-rex e lançou uma mortal armadilha de aço feita de seu antecessor. Seu uso inovador da tática “lançamento de minotauro” ainda é estudado hoje.
-                    
-                    Sob Xull, a Legião de Ferro ficou rica e poderosa. O recrutamento foi simples - ele colocou uma generosa recompensa por sua própria cabeça. Qualquer um destemido o suficiente para tentar reivindicá-lo, e forte o suficiente para sobreviver à surra resultante, receberia suas próprias vidas como bônus de assinatura da Legião.
-                    
-                    Sua força física era lendária e ele lutaria contra qualquer desafiante por qualquer aposta. Ele só perdeu uma vez e honrou essa aposta, trocando de lado nas Guerras dos Mortos-vivos, apesar de ter certeza de que ela deve ter trapaceado de alguma forma.
-                    
-                    Em Valhalla, Xull sabe que deve liderar sempre. Ele desafiou Kor pela liderança do Golem Underground. Ele desafiou Thor pela liderança na quinta-feira. Ele desafiou Scarlet pela liderança do Valhallan Ladies Book Club. No Ragnarok, ele liderará um grande exército, e faz pouca diferença para ele de que lado esse exército está.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col col-sm-6 col-md-12">
-            <div class="mt-3"
-              style="background: #044fae; border: 1px solid #044fae; text-align: center; color: #FFFFFF; font-size: 150%; padding: 5px 5px 5px 5px;">
-              <b>Skins</b>
-            </div>
-            <div class="skins-personagens">
-              <img src="imagens/Xull/Arctic_Trapper_Xull.png" alt="">
-              <img src="imagens/Xull/Commander_Xull.png" alt="">
-              <img src="imagens/Xull/Demon_Ogre_Xull.png" alt="">
-              <img src="imagens/Xull/Elvenhollow_Xull.png" alt="">
-              <img src="imagens/Xull/Gridiron_Xull.png" alt="">
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
+        <div class="menu3">
 
-  <footer>
-    <p class="textop" style="text-align: center; color: aliceblue;">Planos de fundo de fases, retratos de lendas e
-      ícones de estatísticas da Blue Mammoth Games.
-      <br>
-      InBrawhalla não é endossado pela Blue Mammoth Games e não reflete os pontos de vista ou opiniões da Blue
-      Mammoth Games ou de qualquer pessoa oficialmente envolvida na produção ou gerenciamento de Brawlhalla.
-      Brawlhalla e Blue Mammoth Games são marcas comerciais e registradas da Blue Mammoth Games.</a>
-    </p>
-  </footer>
+            <div class="container">
+                <div class="conteudo">
+                    <div class="row">
+                        <div class="diana">
+                            <b>XULL</b>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-sm-6 col-md-12 text-center">
+                            <img style="margin-top:30px" alt="imagens/Diana/Diana.png" src="imagens/Xull/Xull.png"
+                                decoding="async" width="200" height="300">
+                            <div class="textop">
+                                <p class="legend">O Comandante de Ferro</p>
+                                <p class="legend">"Ogro mercenário e desafiador da autoridade."</p>
+                            </div>
+                            <div class="mb-4"
+                                style="background: #044fae; border: 1px solid #044fae; text-align: center; color: #FFFFFF; font-size: 150%; padding: 5px 5px 5px 5px;">
+                                <b>Estatísticas</b>
+                            </div>
+                            <div class="row pb-3">
+                                <div class="col">
+                                    <img class="imgico icoforca imgbar" src="imagens/Xull/forca.png" alt="">
+                                    <img class="imgico icodestreza imgbar" src="imagens/Xull/destreza.png" alt="">
+                                </div>
+                                <div class="col">
+                                    <img class="imgico icodefesa imgbar" src="imagens/Xull/defesa.png" alt="">
+                                    <img class="imgico icorapidez imgbar" src="imagens/Xull/rapidez.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col col-sm-6 col-md-12">
+                            <div class="mt-3"
+                                style="background: #044fae; border: 1px solid #044fae; text-align: center; color: #FFFFFF; font-size: 150%; padding: 5px 5px 5px 5px;">
+                                <b>Sobre</b>
+                            </div>
+                            <div class="textop">
+                                <p style="color: aliceblue; text-align: justify;  vertical-align: inherit;">
+                                    Xull assumiu o comando da Legião de Ferro do Titã Troll com um golpe brutal. Sua
+                                    primeira ordem foi criar uma brigada de canhão. Sua segunda ordem era que o combate
+                                    covarde de longo alcance não seria tolerado.
+
+                                    Como senhor da guerra do exército mercenário, ele era selvagem, vingativo e
+                                    extremamente eficaz. Na batalha, ele montou um t-rex e lançou uma mortal armadilha
+                                    de aço feita de seu antecessor. Seu uso inovador da tática “lançamento de minotauro”
+                                    ainda é estudado hoje.
+
+                                    Sob Xull, a Legião de Ferro ficou rica e poderosa. O recrutamento foi simples - ele
+                                    colocou uma generosa recompensa por sua própria cabeça. Qualquer um destemido o
+                                    suficiente para tentar reivindicá-lo, e forte o suficiente para sobreviver à surra
+                                    resultante, receberia suas próprias vidas como bônus de assinatura da Legião.
+
+                                    Sua força física era lendária e ele lutaria contra qualquer desafiante por qualquer
+                                    aposta. Ele só perdeu uma vez e honrou essa aposta, trocando de lado nas Guerras dos
+                                    Mortos-vivos, apesar de ter certeza de que ela deve ter trapaceado de alguma forma.
+
+                                    Em Valhalla, Xull sabe que deve liderar sempre. Ele desafiou Kor pela liderança do
+                                    Golem Underground. Ele desafiou Thor pela liderança na quinta-feira. Ele desafiou
+                                    Scarlet pela liderança do Valhallan Ladies Book Club. No Ragnarok, ele liderará um
+                                    grande exército, e faz pouca diferença para ele de que lado esse exército está.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col col-sm-6 col-md-12">
+                        <div class="mt-3"
+                            style="background: #044fae; border: 1px solid #044fae; text-align: center; color: #FFFFFF; font-size: 150%; padding: 5px 5px 5px 5px;">
+                            <b>Skins</b>
+                        </div>
+                        <div class="skins-personagens">
+                            <img src="imagens/Xull/Arctic_Trapper_Xull.png" alt="">
+                            <img src="imagens/Xull/Commander_Xull.png" alt="">
+                            <img src="imagens/Xull/Demon_Ogre_Xull.png" alt="">
+                            <img src="imagens/Xull/Elvenhollow_Xull.png" alt="">
+                            <img src="imagens/Xull/Gridiron_Xull.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p class="textop" style="text-align: center; color: aliceblue;">Planos de fundo de fases, retratos de lendas e
+            ícones de estatísticas da Blue Mammoth Games.
+            <br>
+            InBrawhalla não é endossado pela Blue Mammoth Games e não reflete os pontos de vista ou opiniões da Blue
+            Mammoth Games ou de qualquer pessoa oficialmente envolvida na produção ou gerenciamento de Brawlhalla.
+            Brawlhalla e Blue Mammoth Games são marcas comerciais e registradas da Blue Mammoth Games.</a>
+        </p>
+    </footer>
 </body>
 
 </html>
